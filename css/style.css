@@ -16,7 +16,9 @@ body{
     border: 2px solid green;
 }
 .close{
-     display: none;
+    
+    
+
 
 }
 .left{
@@ -302,7 +304,7 @@ body{
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
  .left{
     
     position: absolute;
