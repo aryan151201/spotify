@@ -11,7 +11,7 @@ function SecondsToMinutes(inputSeconds) {
 }
 async function getsongs(folder) {
   currfolder=folder;
-  let a = await fetch(`http://127.0.0.1:5500/${folder}/`);
+  let a = await fetch(`/${folder}/`);
   let response = await a.text();
   ///console.log(response)
   let div = document.createElement("div"); /// creates temproray div element in memory (not adade in page ) used to parse html string as a part of document
@@ -69,7 +69,7 @@ const playMusic = (track, pause = false) => {
 
 }
 async function displayalbum(){
-  let a = await fetch(`http://127.0.0.1:5500/songs/`);
+  let a = await fetch(`/songs/`);
   let response = await a.text();
   let div = document.createElement("div"); /// creates temproray div element in memory (not adade in page ) used to parse html string as a part of document
   div.innerHTML = response;
