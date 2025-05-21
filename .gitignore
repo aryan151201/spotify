@@ -1,0 +1,15 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.log
+*.txt
+*.jpg

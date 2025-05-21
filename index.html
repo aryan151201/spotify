@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/utility.css" />
+  <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+  <div class="container flex bg-black">
+    <div class="left m1">
+      <div class="home bg-grey rounded p1 m1">
+        <div class="close">
+          <img class="invert" src="img/close.svg"  alt="">
+        </div>
+        <div><img src="img/logo.svg" class="invert" alt="home" /> Spotify</div>
+        <ul>
+          <li><img src="img/home.svg" class="invert" alt="home" />Home</li>
+          <li><img src="img/search.svg" class="invert" alt="home" />Search</li>
+        </ul>
+      </div>
+
+      <div class="library bg-grey rounded m1 p1">
+        <div class="heading">
+          <img src="img/library.svg" class="invert" alt="library">
+          <h2>Your library <h2>
+              <!-- <img src="creat.svg" class="invert" alt="library" />    gonna take care of this -->
+        </div>
+        <div class="songlist">
+          <ul>
+
+          </ul>
+        </div>
+
+
+
+        <div class="footer">
+          <div><a href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+          <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">Privacy Center</a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+          <div><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="right  bg-grey rounded">
+      <div class="header  ">
+        <div class="nav">
+          <div class="hamburgercontainer">
+
+            <img width="40px" src="img/hamburger.svg" class=" hamburger invert" alt="">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+            fill="none">
+            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+          fill="none">
+          <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff" stroke-width="1.5"
+          stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+    </div>
+        <div class="buttons">
+          <button class="signupbtn">Sign up</button>
+          <button class="loginbtn">Log in</button>
+        </div>
+      </div>
+      <div class="playlist">
+        <h1>Spotify Playlist</h1>
+        <div class="cardcontainer">
+
+
+          
+
+        </div>
+
+      </div>
+
+
+      <div class="playbar">
+        <div class="seekbar ">
+          <div class="circle">
+
+          </div>
+        </div>
+        <div class="abovebar">
+
+          <div class="songinfo"></div>
+          
+          <div class="songbutton">
+            <img width="30" id="previous" src="img/previous.svg" alt="playbar">
+            <img width="30" id="play" src="img/play.svg" alt="playbar">
+            <img width="30" id="next" src="img/next.svg" alt="playbar">
+          </div>
+          <div class="voltime">
+
+            <div class="songtime">
+              
+          
+            </div>
+            <div class="volume">
+              <img width="20" src="img/volume.svg" alt="">
+              <div class="range">
+                <input type="range" name="volume" id="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
